@@ -1,24 +1,23 @@
 # Bored Physio Guitar Android releases
 
-Official APK update channel for Bored Physio Guitar: an offline guitar tuner and chord library for Android 8.0 or later.
+Official APK update channel for Bored Physio Guitar: offline tuner, chord trainer, Strumming Coach and Metronome for Android 8.0 or later.
 
-Download APKs from Releases. Each release includes app-debug.apk (a signed, non-debuggable release APK), update.json, SHA256SUMS, the public signer certificate and verification.json. Android always asks you to approve installation. This repository contains delivery information and release assets only.
+Latest: **0.0.6 (code 6)** — audible strumming demonstrations. In Strumming Coach, choose a pattern/chord/BPM and tap **Listen to Example**, **Slow Demo** (half tempo) or **Play Along** (loops). Metronome clicks toggle independently. Sounds are original chord-specific plucked-string synthesis, not commercial recordings or external samples. Demonstrations and play-along never capture or score microphone audio; normal microphone practice remains separate. No physical-phone audio-quality or latency validation is claimed by publication.
 
-## Update from 0.0.2
+## Update in place
 
-Version 0.0.2 does NOT have a repository preconfigured. Open Home → App updates, enter `https://github.com/Zilvis0/bored-physio-guitar-updates`, tap Save repository, then Check for updates. Choose Download for the latest version (currently 0.0.5), then Install. If Android requires permission to install from this app, allow it in settings, return and tap Install again. Approve Android's installer. Do not uninstall 0.0.2; all releases from 0.0.2 onward use the same dedicated signing key.
+Versions 0.0.3 and later already know this repository. App updates → Check for updates → Download → Install, then approve Android's installer. Do not uninstall or clear storage: the package/signing identity and existing histories/preferences are retained.
 
-Versions 0.0.3 and later have this repository configured by default and support quiet daily metadata checks. Downloading and installation still require your choices. The latest release is 0.0.5 (code 5), adding Strumming Coach and Metronome: 40–200 BPM, six patterns with arrows/rests, count-in, visual timeline, repeat and local rhythm history. Practice options include continuous listening-only playback and optional wired/USB-headphone microphone timing feedback. Speaker/Bluetooth exercises remain unscored. Audio never identifies down/up direction or chord identity. Missing timing confidence produces an unscored result.
+Version 0.0.2 does NOT have a repository preconfigured. In Home → App updates enter `https://github.com/Zilvis0/bored-physio-guitar-updates`, tap Save repository, then Check for updates. Returning from installation-source permission settings requires tapping Install again.
 
-From 0.0.4, open App updates → Check for updates → Download → Install, then approve Android's installer. Do not uninstall or clear storage: the package/signing identity and existing histories/preferences are retained. Physical-phone microphone, audio routing and latency testing remain necessary; no such tests are claimed by publication.
+Only the old 0.0.1 debug-signed build requires a one-time uninstall before a dedicated-key version. All releases from 0.0.2 onward use the same dedicated identity.
 
-The older 0.0.1 APK used a different debug signer. Only users still on 0.0.1 need a one-time uninstall before manually installing a dedicated-key version; this resets local preferences.
+Each release provides only app-debug.apk (a signed, non-debuggable release APK), update.json, SHA256SUMS, the PUBLIC signer certificate and verification.json, plus release notes. This repository's source tree contains only this delivery README. Development source, private keys, passwords and private configuration are never uploaded.
 
 Public signing certificate SHA-256:
 
 `f8c980ceed4ff6db08660b9e47eeecba30ab457f665b0516eff087f73e6f9b53`
 
-Private signing material, credentials and development source are never release assets. Physical phone behavior must be verified by installing and testing on the device.
+## Hear the example
 
-
-
+Try Em, then G or C to hear different chord notes. Slow Demo preserves pitch while halving tempo. Rests omit new strums; existing strings may ring. Pause/resume repeats the unfinished measure; Play Along resumes on beat 1. Stop, navigation away, backgrounding, focus loss and headphone removal pause or release playback. Verify audio quality, accents, synchronization and headphone-disconnection behavior on your phone; automated scheduling tests do not establish physical acoustic quality.
