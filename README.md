@@ -1,23 +1,24 @@
-# Bored Physio Guitar Android releases
+# Fret Happens — by Bored Physio
 
-Official APK update channel for Bored Physio Guitar: offline tuner, chord trainer, Strumming Coach and Metronome for Android 8.0 or later.
+Official public Android APK update channel. Fret Happens was previously named Bored Physio Guitar; it remains the same app, package and signing identity.
 
-Latest: **0.0.6 (code 6)** — audible strumming demonstrations. In Strumming Coach, choose a pattern/chord/BPM and tap **Listen to Example**, **Slow Demo** (half tempo) or **Play Along** (loops). Metronome clicks toggle independently. Sounds are original chord-specific plucked-string synthesis, not commercial recordings or external samples. Demonstrations and play-along never capture or score microphone audio; normal microphone practice remains separate. No physical-phone audio-quality or latency validation is claimed by publication.
+Latest: [v0.0.12 / code 12](https://github.com/Zilvis0/bored-physio-guitar-updates/releases/tag/v0.0.12) — warm acoustic redesign, song search and confirmed deletion, arrangement/duplicate management, current/next chord guidance and six-string timed picking visualization. Offline tuner, chord trainer, 24 strumming patterns, custom rhythms and Songbook are included. No account or subscription.
 
-## Update in place
+## Install or update
 
-Versions 0.0.3 and later already know this repository. App updates → Check for updates → Download → Install, then approve Android's installer. Do not uninstall or clear storage: the package/signing identity and existing histories/preferences are retained.
+Use [the latest release](https://github.com/Zilvis0/bored-physio-guitar-updates/releases/latest) for the APK and release notes. `app-debug.apk` is the established delivery filename; its bytes are a signed, non-debuggable release build for Android 8.0+.
 
-Version 0.0.2 does NOT have a repository preconfigured. In Home → App updates enter `https://github.com/Zilvis0/bored-physio-guitar-updates`, tap Save repository, then Check for updates. Returning from installation-source permission settings requires tapping Install again.
+In v0.0.11: App updates → Check for updates → Download → Install. In the renamed app: About & updates. Android asks for approval; installation is never silent. **Do not uninstall or clear storage** when updating from v0.0.2 or later. Saved songs, preferences and histories are kept.
 
-Only the old 0.0.1 debug-signed build requires a one-time uninstall before a dedicated-key version. All releases from 0.0.2 onward use the same dedicated identity.
+Versions 0.0.3 and later already know this repository. For 0.0.2, enter `https://github.com/Zilvis0/bored-physio-guitar-updates` in App updates, save the repository, then check. After granting installation-source permission, tap Install again. Only the obsolete debug-signed 0.0.1 requires a one-time uninstall before a dedicated-key version.
 
-Each release provides only app-debug.apk (a signed, non-debuggable release APK), update.json, SHA256SUMS, the PUBLIC signer certificate and verification.json, plus release notes. This repository's source tree contains only this delivery README. Development source, private keys, passwords and private configuration are never uploaded.
+Package: `com.boredphysio.guitar`
 
-Public signing certificate SHA-256:
-
+Public signer certificate SHA-256:
 `f8c980ceed4ff6db08660b9e47eeecba30ab457f665b0516eff087f73e6f9b53`
 
-## Hear the example
+## Release contents and privacy
 
-Try Em, then G or C to hear different chord notes. Slow Demo preserves pitch while halving tempo. Rests omit new strums; existing strings may ring. Pause/resume repeats the unfinished measure; Play Along resumes on beat 1. Stop, navigation away, backgrounding, focus loss and headphone removal pause or release playback. Verify audio quality, accents, synchronization and headphone-disconnection behavior on your phone; automated scheduling tests do not establish physical acoustic quality.
+Each release has exactly five assets: `app-debug.apk`, `update.json`, `SHA256SUMS`, `signer-certificate.pem` (PUBLIC certificate only), and `verification.json`, plus release notes. The repository source tree contains only this README. Development source, private songs, private keys and credentials are never uploaded.
+
+Guitar audio is original on-device synthesis. There are no commercial recordings or scraped lyrics. User imports stay local. Lyrics without explicit timing mapping are not presented as synchronized. Physical phone microphone accuracy, hardware latency and perceived audiovisual synchronization require device testing; emulator and scheduling tests cannot validate them.
