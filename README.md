@@ -2,7 +2,7 @@
 
 Official public Android APK update channel. Fret Happens was previously named Bored Physio Guitar; it remains the same app, package and signing identity.
 
-Latest: [v0.0.15 / code 15](https://github.com/Zilvis0/bored-physio-guitar-updates/releases/tag/v0.0.15) — Warm Acoustic Home with compact navigation, real Continue Practicing, recent song families and a helpful empty state. The v14 audible/silent Song Practice, visible transport, loops, chord diagrams and picking view are preserved. Tuner, chord trainer, 24 strumming patterns, custom rhythms and offline Songbook remain available. No account or subscription.
+Latest: [v0.0.16 / code 16](https://github.com/Zilvis0/bored-physio-guitar-updates/releases/tag/v0.0.16) — compact Warm Acoustic Songbook rows, fixed search/actions, expandable versions, independent favorite/menu buttons and clear selection/deletion controls. Approved Home and audible/silent Song Practice remain unchanged. Tuner, chord trainer, 24 strumming patterns, custom rhythms and offline songs remain available. No account or subscription.
 
 ## Install or update
 
